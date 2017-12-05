@@ -157,6 +157,8 @@ class swissrugbystats {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
+		$this->loader->add_action('admin_bar_menu', $plugin_admin, 'add_plugins_link_to_admin_toolbar');
+
 	}
 
 	/**

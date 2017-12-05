@@ -100,4 +100,25 @@ class swissrugbystats_Admin {
 
 	}
 
+    public function add_plugins_link_to_admin_toolbar( $wp_admin_bar ) {
+
+        $args = array(
+            'id'    => 'swissrugbystats',
+            'title' => 'Swiss Rugby Stats',
+            'parent'=> false,
+        );
+
+        $wp_admin_bar->add_node( $args );
+
+	    $args = array(
+            'id'    => 'swissrugbystats_main',
+            'title' => 'Settings',
+            'href'  => admin_url('./partials/swissrugbystats-admin-display.php'),
+            'parent'=> 'swissrugbystats',
+        );
+
+	    $wp_admin_bar->add_node( $args );
+    }
+
+
 }
