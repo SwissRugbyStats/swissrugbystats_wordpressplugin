@@ -96,6 +96,8 @@ class swissrugbystats_Public {
 		 * class.
 		 */
 
+		 /* enqueue Swiss Rugby Stats JS directly from swissrugbystats.ch site */
+        wp_enqueue_script('swissrugbystats_lib', 'http://swissrugbystats.ch/lib/srs-widgets.js', array( 'jquery' ));
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/swissrugbystats-public.js', array( 'jquery' ), $this->version, false );
 
 	}

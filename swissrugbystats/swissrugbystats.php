@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://example.com
- * @since             1.0.0
+ * @link              http://swissrugbystats.ch
+ * @since             0.0.1
  * @package           swissrugbystats
  *
  * @wordpress-plugin
- * Plugin Name:       WordPress Plugin Boilerplate
- * Plugin URI:        http://example.com/plugin-name-uri/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
- * Author:            Your Name or Your Company
- * Author URI:        http://example.com/
+ * Plugin Name:       Swiss Rugby Stats
+ * Plugin URI:        http://swissrugbystats.com
+ * Description:       This is a PoC of how to include Swiss Rugby Stats into Wordpress.
+ * Version:           0.0.1
+ * Author:            Platzh1rsch
+ * Author URI:        http://platzh1rsch.ch
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       swissrugbystats
